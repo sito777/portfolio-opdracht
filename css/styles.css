@@ -1,0 +1,139 @@
+/* Style guide */
+/* kleuren blauw #020427 | zwart #313131 | wit #ffffff */
+#index{
+  background-color: #020427;
+}
+
+.kop-w{
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0px;
+}
+
+.kop{
+  color: #313131;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0px;
+}
+
+.kopje-w{
+  color: #ffffff;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0px;
+}
+
+.kopje{
+  color: #313131;
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0px;
+}
+
+.broodtekst-w{
+  color: #ffffff;
+  font-weight: 200;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0px;
+}
+
+a {
+  color: #ffffff;
+}
+
+p{
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 200;
+  margin: 0px;
+  color: #313131;
+}
+
+#about-bg{
+  position: fixed;
+  width: 100%;
+  margin-top: -150px;
+  z-index: -1;
+}
+
+/* nav */
+nav{
+
+  margin-bottom: 100px;
+}
+
+.nav-link{
+  color: #ffffff;
+  padding: 10px 80px;
+}
+
+.nav-link:hover, a:hover{
+  color: grey;
+  transition: 0.7s;
+  text-decoration: none;
+}
+
+#logo{
+  background-image: url("../img/Otis_icon_wit.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 41px;
+  background-size: 15%;
+}
+
+/* footer */
+.broodtekst-w-footer{
+  margin: 0px 30px;
+  color: #ffffff;
+}
+
+.broodtekst-w-footer-note{
+  margin: 0px 5px;
+  color: #ffffff;
+  font-size: 10px;
+}
+
+footer{
+  margin-bottom: 50px;
+}
+
+/* index */
+img {
+  position: absolute;
+  width: inherit;
+}
+
+.top-3{
+  margin-bottom: 500px;
+}
+
+#cards-3{
+  margin-bottom: 100px;
+}
+
+.col-3{
+  margin: 0px 45px;
+  position: relative;
+}
+
+.cardborder{
+  border: 3px solid #ffffff;
+  border-radius: 30px;
+  padding: 50px;
+}
+
+.cardsrow{
+  margin-bottom: 280px;
+}
+
+/* about */
+.about{
+  margin-bottom: 15%;
+}
+
+.whitespace{
+  margin: 50px 0px;
+}
