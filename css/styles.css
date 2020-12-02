@@ -55,8 +55,11 @@ p{
 #about-bg{
   position: fixed;
   width: 100%;
-  margin-top: -150px;
   z-index: -1;
+  background-image: url("../img/nubelson-fernandes-gTs2w7bu3Qo-unsplash.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: 100%;
 }
 
 /* nav */
@@ -111,7 +114,7 @@ img {
 }
 
 #cards-3{
-  margin-bottom: 100px;
+  margin-bottom: 300px;
 }
 
 .col-3{
@@ -122,11 +125,12 @@ img {
 .cardborder{
   border: 3px solid #ffffff;
   border-radius: 30px;
-  padding: 50px;
+  padding: 120px;
 }
 
 .cardsrow{
-  margin-bottom: 280px;
+  margin-bottom: 140px;
+  margin-top: 200px;
 }
 
 /* about */
@@ -136,4 +140,29 @@ img {
 
 .whitespace{
   margin: 50px 0px;
+}
+
+/* work */
+.fotoweb{
+  background-image: url("../img/apple_Imacpro.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 90px;
+  background-size: 90%;
+}
+
+.fotoapp{
+  background-image: url("../img/iphoneX.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 90px;
+  background-size: 90%;
+}
+
+.fotoweb:hover{
+  background-size: 100%;
+}
+
+.fotoapp:hover{
+  background-size: 100%;
 }
