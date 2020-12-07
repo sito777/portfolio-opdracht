@@ -52,16 +52,6 @@ p{
   color: #313131;
 }
 
-#about-bg{
-  position: fixed;
-  width: 100%;
-  z-index: -1;
-  background-image: url("../img/nubelson-fernandes-gTs2w7bu3Qo-unsplash.jpg");
-  background-repeat: no-repeat;
-  height: 100%;
-  background-size: 100%;
-}
-
 /* nav */
 nav{
 
@@ -103,7 +93,7 @@ footer{
   margin-bottom: 50px;
 }
 
-/* index */
+/* index page */
 img {
   position: absolute;
   width: inherit;
@@ -136,16 +126,100 @@ img {
   margin-bottom: 700px;
 }
 
-/* about */
+/* about page */
 .about{
   margin-bottom: 15%;
 }
 
-.whitespace{
-  margin: 50px 0px;
+.about-col{
+  padding: 2%;
 }
 
-/* work */
+#about-bg{
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+  background-image: url("../img/nubelson-fernandes-gTs2w7bu3Qo-unsplash.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: 100%;
+}
+
+@media screen and (max-width: 1500px) {
+  #about-bg{
+  background-size: 110%;
+  width: 100%;
+  position: fixed;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  #about-bg{
+  background-size: 120%;
+  width: 100%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  #about-bg{
+  background-size: 130%;
+  width: 100%;
+  position: fixed;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  #about-bg{
+  background-size: 140%;
+  width: 100%;
+  position: fixed;
+  }
+  .col-md-4 {
+    max-width: 70%;
+  } 
+}
+
+@media screen and (max-width: 960px) {
+  #about-bg{
+  background-size: 160%;
+  width: 100%;
+  position: fixed;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #about-bg{
+  background-size: 180%;
+  width: 100%;
+  position: fixed;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #about-bg{
+  background-size: 210%;
+  width: 100%;
+  position: fixed;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #about-bg{
+  background-size: 230%;
+  width: 100%;
+  position: fixed;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #about-bg{
+  background-color: #b6b6b6;
+  position: fixed;
+  }
+}
+
+
+/* work page */
 .fotoweb{
   background-image: url("../img/apple_Imacpro.png");
   background-repeat: no-repeat;
