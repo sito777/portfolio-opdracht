@@ -41,6 +41,13 @@
   margin: 0px;
 }
 
+.broodtekst{
+  color: #313131;
+  font-weight: 200;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0px;
+}
+
 a {
   color: #ffffff;
 }
@@ -77,6 +84,22 @@ nav{
   background-size: 15%;
 }
 
+/* nav & footer blue O */
+
+.navBlueO{
+  color: #020427;
+  padding: 10px 80px;
+}
+
+#logoZ{
+  background-image: url("../img/Otis_icon_Blue_O.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 41px;
+  background-size: 15%;
+}
+
+
 /* footer */
 .broodtekst-w-footer{
   margin: 0px 30px;
@@ -86,6 +109,17 @@ nav{
 .broodtekst-w-footer-note{
   margin: 0px 5px;
   color: #ffffff;
+  font-size: 10px;
+}
+
+.broodtekst-o-footer{
+  margin: 0px 30px;
+  color: #020427;
+}
+
+.broodtekst-o-footer-note{
+  margin: 0px 5px;
+  color: #020427;
   font-size: 10px;
 }
 
@@ -115,6 +149,14 @@ img {
   border: 3px solid #ffffff;
   border-radius: 30px;
   padding: 120px;
+}
+
+@media screen and (max-width: 1000px){
+  .cardborder{
+    border: none;
+    border-radius: none;
+    padding: 120px;
+  }
 }
 
 .cardsrow{
@@ -242,4 +284,14 @@ img {
 
 .fotoapp:hover{
   background-size: 100%;
+}
+
+
+/* web project */
+.sectie{
+  margin-bottom: 400px;
+}
+
+.web-highlight{
+  width: 70%;
 }
