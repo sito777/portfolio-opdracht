@@ -61,13 +61,12 @@ p{
 
 /* nav */
 nav{
-
   margin-bottom: 100px;
 }
 
 .nav-link{
   color: #ffffff;
-  padding: 10px 80px;
+  padding: 10px 50px;
 }
 
 .nav-link:hover, a:hover{
@@ -81,14 +80,28 @@ nav{
   background-repeat: no-repeat;
   background-position: center;
   height: 41px;
-  background-size: 15%;
+  background-size: 25%;
 }
 
-/* nav & footer blue O */
+@media (max-width: 770px){
+  .nav-link{
+    padding: 10px 20px;
+  }
 
-.navBlueO{
-  color: #020427;
-  padding: 10px 80px;
+  #logo{
+    background-image: url("../img/Otis_icon_wit.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 41px;
+    background-size: 45%;
+  }
+}
+
+/* nav & footer zwart */
+
+.navZ{
+  color: #313131;
+  padding: 10px 50px;
 }
 
 #logoZ{
@@ -96,30 +109,40 @@ nav{
   background-repeat: no-repeat;
   background-position: center;
   height: 41px;
-  background-size: 15%;
+  background-size: 25%;
+}
+
+@media (max-width: 770px){
+  .navZ{
+    padding: 10px 20px;
+  }
+
+  #logoZ{
+    background-image: url("../img/Otis_icon_Blue_O.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 41px;
+    background-size: 45%;
+  }
+}
+
+.broodtekst-z-footer{
+  color: #313131;
+}
+
+.broodtekst-z-footer-note{
+  color: #313131;
+  font-size: 10px;
 }
 
 
 /* footer */
 .broodtekst-w-footer{
-  margin: 0px 30px;
   color: #ffffff;
 }
 
 .broodtekst-w-footer-note{
-  margin: 0px 5px;
   color: #ffffff;
-  font-size: 10px;
-}
-
-.broodtekst-o-footer{
-  margin: 0px 30px;
-  color: #020427;
-}
-
-.broodtekst-o-footer-note{
-  margin: 0px 5px;
-  color: #020427;
   font-size: 10px;
 }
 
@@ -127,7 +150,19 @@ footer{
   margin-bottom: 50px;
 }
 
-/* index page */
+@media (min-width: 768px){
+  .col-md-2 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 576px){
+  .col-sm-3 {
+    text-align: center;
+  }
+}
+  
+  /* index page */
 img {
   position: absolute;
   width: inherit;
@@ -294,4 +329,91 @@ img {
 
 .web-highlight{
   width: 70%;
+}
+
+.foto-webproject-top{
+  background-image: url("../img/oliver-pecker-HONJP8DyiSM-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 450px;
+  background-size: 100%;
+  margin-bottom: -200px;
+}
+
+.foto-webproject-bottom{
+  background-image: url("../img/Free-White-Apple-iMac-Mockup-PSD.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1000px;
+  background-size: 100%;
+  margin: -450px 0px;
+}
+
+/* app project */
+.applayout{
+  background-image: url("../img/app1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 790px;
+  background-size: 100%;
+  margin-top: -500px;
+}
+
+.applayout2{
+  background-image: url("../img/app2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 790px;
+  background-size: 100%;
+  margin-top: -500px;
+}
+
+@media (max-width: 770px){
+  .applayout{
+    background-image: url("../img/app1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 790px;
+    background-size: 100%;
+    margin-top: -600px;
+    margin-bottom: -100px;
+  }
+  
+  .applayout2{
+    background-image: url("../img/app2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 790px;
+    background-size: 100%;
+    margin-top: -600px;
+    margin-bottom: -100px;
+  }
+}
+
+.foto-appproject-bottom{
+  background-image: url("../img/app@2x.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1000px;
+  background-size: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -500px;
+}
+
+.sectie-bottom{
+  margin-bottom: -150px;
+}
+
+@media (max-width: 770px){
+  .foto-appproject-bottom{
+    background-image: url("../img/app@2x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1000px;
+    background-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -300px;
+  }
 }
