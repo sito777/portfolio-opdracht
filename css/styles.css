@@ -417,3 +417,48 @@ img {
     margin-top: -300px;
   }
 }
+
+/* contact */
+
+.formulier{
+  margin-bottom: 150px;
+}
+
+.list-group{
+  margin-bottom: 50px;
+  width: 50%;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: .75rem 2rem;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+label{
+  color: #ffffff;
+}
+
+.tekst{
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  margin-bottom: 150px;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: solid;
+}
+
+.table td, .table th {
+  padding: .75rem;
+  vertical-align: top;
+  border-top: none;
+}
